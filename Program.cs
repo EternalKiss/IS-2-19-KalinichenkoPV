@@ -16,7 +16,7 @@ namespace IS_2_19_KalinichenkoPV
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Задание1());
+            Application.Run(new Menu());
         }
         public class VozraT
         {

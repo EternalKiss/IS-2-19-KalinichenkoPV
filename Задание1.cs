@@ -88,10 +88,12 @@ namespace IS_2_19_KalinichenkoPV
             string cena = Convert.ToString(textBox1.Text);
             string GoDVblpyska = Convert.ToString(textBox2.Text);
             string chastota = Convert.ToString(textBox3.Text);
-            string kolvoiader = Convert.ToString(textBox4.Text);
-            string kolvopotokov = Convert.ToString(textBox5.Text);
-            Cp cp1 = new Cp(cena, GoDVblpyska, chastota, kolvoiader, kolvopotokov);
+            string Yadra = Convert.ToString(textBox4.Text);
+            string Potoki = Convert.ToString(textBox5.Text);
+            Cp cp1 = new Cp(cena, GoDVblpyska, chastota, Yadra, Potoki);
             cp1.Display(listBox1);
         }
+
+       
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace IS_2_19_KalinichenkoPV
 {
-    public partial class Меню : Form
+    public partial class Menu : Form
     {
-        public Меню()
+        public Menu()
         {
             InitializeComponent();
         }
@@ -45,6 +45,11 @@ namespace IS_2_19_KalinichenkoPV
         {
             Задание5 Form6 = new Задание5();
             Form6.ShowDialog();
+        }
+
+        private void Меню_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

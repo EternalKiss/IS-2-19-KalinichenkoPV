@@ -1,7 +1,7 @@
 ﻿
 namespace IS_2_19_KalinichenkoPV
 {
-    partial class Меню
+    partial class Menu
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -98,6 +98,7 @@ namespace IS_2_19_KalinichenkoPV
             this.Controls.Add(this.button1);
             this.Name = "Меню";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Меню_Load);
             this.ResumeLayout(false);
 
         }
