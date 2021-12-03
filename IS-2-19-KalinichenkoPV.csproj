@@ -96,6 +96,9 @@
     <EmbeddedResource Include="Задание3.resx">
       <DependentUpon>Задание3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Задание4.resx">
+      <DependentUpon>Задание4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Меню.resx">
       <DependentUpon>Меню.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +123,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+      <Project>{0489d585-a10a-496e-993c-46f70c021fa0}</Project>
+      <Name>ClassLibrary1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
